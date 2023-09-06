@@ -11,9 +11,9 @@ body{
 
 header{
     display: flex;
-    padding: 3.5rem 9rem;
     justify-content: space-between;
     align-items: center;
+    padding: 3.5rem 9rem;
     border-bottom: 1px solid #8C6553;
 }
 
@@ -30,14 +30,119 @@ a {
 a li {
     font-family: Poppins;
     font-size: 15px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     color: #FFF;
-
 }
 
 li:hover{
     transform: scale(1.2);
     border-bottom: 2px solid #8C6553;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    padding: 3.5rem 6rem 3.5rem 0;
+}
+
+main div{
+
+}
+
+main h4{
+    color: #D8A661;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main h1{
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+}
+
+main p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: #FFF;
+
+    margin-bottom: 4rem;
+}
+
+main button{
+    width: fit-content;
+    height: fit-content;
+    padding: 1.2rem 2.8rem;
+    border-radius: 31rem;
+    border: none;
+    background: #D8A661;
+    
+    filter: drop-shadow(0px 0px 8px #D8A661);
+}
+
+main button a{
+    font-family: Poppins;
+    font-size: 11.165px;
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    border-radius: 5rem 5rem 0 0;
+    background: #4E2A23;
+    box-shadow: 0px -8px 25px 0px rgba(0, 0, 0, 0.30);
+    
+    position: relative;
+}
+
+footer button{
+    position: absolute;
+    top: -12%;
+    left: 105px;
+
+    width: 12rem;
+    height: 4rem;
+    border-radius: 5rem;
+    background: #2C120D;
+    border: none;
+}
+
+footer a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+footer span{
+    font-weight: 700;
+}
+
+footer p{
+    width: 317px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    margin: 5.2rem 0 5.2rem 9.4rem;
+}
+
+footer div{
+    position: absolute;
+    top: -35%;
+    right: 198px;
 }
