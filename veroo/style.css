@@ -1,0 +1,43 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(61deg, #32160F 0%, #512C25 50.43%, #000 98.79%);
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    padding: 3.5rem 9rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #8C6553;
+}
+
+header ul{
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a li {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+
+}
+
+li:hover{
+    transform: scale(1.2);
+    border-bottom: 2px solid #8C6553;
+}
