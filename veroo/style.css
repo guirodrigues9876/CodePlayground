@@ -4,132 +4,164 @@
     box-sizing: border-box;
 }
 
-body{
+body {
+    width: 100%;
+    height: 100vh;
+
+    color: #FFF;
     background: linear-gradient(61deg, #32160F 0%, #512C25 50.43%, #000 98.79%);
+    background-repeat: no-repeat;
+
+    font-family: Poppins;
     font-size: 62.5%;
+    overflow: hidden;
 }
 
-header{
+.container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 3.5rem 9rem;
-    border-bottom: 1px solid #8C6553;
-}
+    height: 100%;
+    margin: 0 auto;
 
-header ul{
-    display: flex;
-    gap: 3rem;
-    list-style-type: none;
+    border: 1px solid red;
 }
 
 a {
     text-decoration: none;
 }
 
-a li {
+button {
     font-family: Poppins;
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 15rem;
+    border-bottom: 1px solid #8C6553;
+}
+
+header ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    height: 3rem;
+    align-items: center;
+}
+
+a li {
     font-size: 15px;
     font-weight: 700;
     color: #FFF;
 }
 
-li:hover{
+li:hover {
+    cursor: pointer;
     transform: scale(1.2);
     border-bottom: 2px solid #8C6553;
 }
 
-main{
+main {
     display: flex;
     align-items: center;
-    padding: 3.5rem 6rem 3.5rem 0;
+    height: 100%;
+    justify-content: space-around;
+    padding: 3rem 0;
+
+    border: 1px dashed yellow;
+}
+
+main img {
+    width: 600px;
+    /* height: 500px; */
+}
+
+main h4 {
+    font-size: 16px;
+    font-weight: 700;
+
+    color: #D8A661;
+}
+
+main h1 {
+    font-size: 50px;
+    font-weight: 700;
 }
 
 main div{
+    border: 1px solid white;
 
 }
 
-main h4{
-    color: #D8A661;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-main h1{
-    font-family: Poppins;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    color: #FFF;
-}
-
-main p{
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    color: #FFF;
-
+main div p {
+    max-width: 25rem;
     margin-bottom: 4rem;
+
+    font-size: 16px;
+    font-weight: 300;
 }
 
-main button{
+main div button {
     width: fit-content;
     height: fit-content;
     padding: 1.2rem 2.8rem;
     border-radius: 31rem;
-    border: none;
+
     background: #D8A661;
     
     filter: drop-shadow(0px 0px 8px #D8A661);
 }
 
-main button a{
+main button a {
+    height: 100%;
     font-family: Poppins;
-    font-size: 11.165px;
+    font-size: 1rem;
     color: #000;
     font-style: normal;
     font-weight: 700;
 }
 
-footer{
+footer {
     display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15rem;
+
     border-radius: 5rem 5rem 0 0;
+    
     background: #4E2A23;
     box-shadow: 0px -8px 25px 0px rgba(0, 0, 0, 0.30);
-    
+
     position: relative;
+    
 }
 
-footer button{
+footer button {
     position: absolute;
-    top: -12%;
-    left: 105px;
+    top: -2.4rem;
+    left: 9rem;
 
-    width: 12rem;
-    height: 4rem;
+    width: 15.4rem;
+    height: 4.9rem;
+
     border-radius: 5rem;
     background: #2C120D;
-    border: none;
 }
 
-footer a{
+footer button a {
     color: #FFF;
-    font-family: Poppins;
     font-size: 20px;
     font-weight: 300;
 }
 
-footer span{
+footer span {
     font-weight: 700;
 }
 
-footer p{
+footer p {
     width: 317px;
     color: #FFF;
     font-family: Poppins;
@@ -141,8 +173,19 @@ footer p{
     margin: 5.2rem 0 5.2rem 9.4rem;
 }
 
-footer div{
+footer div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+
     position: absolute;
-    top: -35%;
-    right: 198px;
+    top: -5rem;
+    right: 8rem;
+
+    animation
+}
+
+footer div img:hover{
+    transform: scale(1..2);
 }
