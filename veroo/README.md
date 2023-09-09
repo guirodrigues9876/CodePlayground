@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Vero Coffee" src="./cover.jpg" width="100%">
+  <img alt="Vero Coffee" src="./assets/cover.jpg" width="100%">
 </p>
 
 ## 📝 Worked Concepts
