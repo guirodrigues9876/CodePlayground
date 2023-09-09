@@ -1,6 +1,6 @@
 # <h1 align="center">Vero Coffee</h1>
 
-<p align="center"> Project
+<p align="center"> Project by Biro https://www.birobirobiro.dev/
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Vero Coffee" src="./cover.png" width="100%">
+  <img alt="Vero Coffee" src="./cover.jpg" width="100%">
 </p>
 
 ## 📝 Worked Concepts
@@ -23,7 +23,6 @@
 - HTML
 - CSS
 - Git e Github
-- Figma
 
 ## 📝 License
 <p align="center">
